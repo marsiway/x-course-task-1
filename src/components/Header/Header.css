@@ -1,0 +1,91 @@
+
+.header-container {
+    margin-top: 1px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 10px 0;
+    background-color: #050517;
+    margin-top: 0;
+}
+
+.header-container a[href] {
+    text-decoration: none;
+}
+
+.header-container-left {
+    width: 100%;
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+
+    margin-left: 20px;
+}
+
+.header-container-left img {
+    margin: 0;
+    padding: 0;
+    width: 65px;
+}
+
+.header-container-right {
+    width: 30%;
+  
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-right: 15px;
+}
+
+.header-container-right img {
+    width: 45px;
+    height: 45px;
+}
+
+#signout {
+    background-color: #CF5C36; 
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.header-container-right span {
+    background-color: #CF5C36; 
+    border: none;
+    color: white;
+    padding: 3px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.header-container-right span:hover {
+    transform: scale(0.2);
+    
+}
+
+.header-container-right .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("../../datas/img/user.png");
+    background-position-x: center;
+    background-position-y: center;
+}
+.userAcc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-container-right h2 {
+    color: white;
+}

@@ -1,0 +1,82 @@
+ * {
+	font-family: 'Diplomata SC', cursive;
+	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+
+}
+body {
+	background-color: #F4E3B2;
+	overflow-x: hidden;
+}
+  .search {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+  
+.search input {
+  margin-left: 58px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+  
+.search img {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.searchselect {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    margin-top: 25px;
+
+
+}  
+
+.select {
+
+}
+
+.select select {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+
+    outline: none;
+
+}
+  
+.select select option:hover {
+    background: red;
+}
+
+.empty {
+    width: 100%;
+    margin-top: 3rem;
+  
+}
+  
+.empty h2 {
+    font-size: 1.25rem;
+    color: #f9d3b4;
+    font-family: var(--font-raleway);
+}
+.container  {
+    display: flex;
+    flex-flow: row wrap;
+}

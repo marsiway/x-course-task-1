@@ -1,0 +1,60 @@
+.signin-container {
+    margin: 2rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+
+form#signinForm div#imgBorder {
+    width: 100%;
+
+}
+
+form#signinForm img {
+    width: 200px;
+    height: 200px;
+    
+}
+
+form#signinForm p {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    color: #050517; 
+}
+
+form#signinForm input {
+    border: none;
+    font-weight: 500;
+    padding-right: 1rem;
+  
+    outline: none;
+
+    width: 200px;
+	border-radius: 10px;
+	height: 36px;
+    padding: 5px 5px;
+  }
+  
+
+form#signinForm button {
+    width: 200px;
+	background-color: #CF5C36; 
+  	border: none;
+  	color: white;
+  	padding: 10px 28px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 16px;
+  	border-radius: 10px;
+}
+
+form#signinForm button:hover {
+    cursor: pointer;
+}
+.field {
+    border: none;
+}

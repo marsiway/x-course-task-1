@@ -1,0 +1,19 @@
+.footer-container {
+
+left: 0;
+bottom: 0;
+width: 100%;
+padding: 10px;
+background-color: #efc88b;
+color: rgb(13, 10, 24);
+text-align: center;
+margin-top: 400px;
+}
+.link {
+    text-decoration: none;
+    color: #3e2868;
+}
+.link:hover {
+    text-decoration: underline;
+    color: white;
+}
